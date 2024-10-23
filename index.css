@@ -1,0 +1,48 @@
+body
+{
+  padding: 15px;
+}
+#card_img
+{
+  background-image: url(images/photo-1577655197620-704858b270ac.avif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+#card2_img
+{
+  background-image: url(images/pic1_712a8248-b4fb-4cae-a5a3-e4d699c293fc.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+#card3_img
+{
+  background-image: url(images/Sony-PlayStation-Portal-review-lead.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+.overlay
+{
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  right: 0;
+}
+@media(max-width:767px)
+{
+  #fashion_text
+  {
+    text-align: center;
+  }
+}
